@@ -14,6 +14,25 @@
 ## Start parsing
 
     $ php artisan product:import
+    
+## Install
+.env.example переименовать в .env,
+добавить доступы для бд:
+
+```
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+```
+Далее
+
+    $ composer insatall
+    $ php artisan key:generate
+    $ php artisan migrate
+    $ npm install
+    $ npm run prod
+    
+Подробнее о настройке Laravel на сервере: [link](https://beget.com/ru/kb/how-to/web-apps/ustanovka-php-frejmvorkov#ustanovka-laravel)
 
 
 
